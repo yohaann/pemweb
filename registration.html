@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>☆ Registration ☆</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+		<div id="id01" class="modal">
+		<div class="shape">
+			<div class="a">
+				SIGN IN
+				<form action="/action_page.php">
+	   			<input type="text" id="emailaddress" name="EmailAddress" placeholder="Email Address">
+	    		<input type="password" id="password" name="Password" placeholder="Password">
+	    		<select id="gender" name="gender">
+	    		<option value="male">Man</option>
+	    		<option value="woman">Woman</option>
+	    		</select>
+	   			<button type="submit" value="Login"><b>Login</b></button>
+	   			<div class="forgetpassword">
+	   				<a href="forgotpassw.html">forget your password ?</a>
+	   			</div>
+	  			</form>
+			</div>
+			<div class="signup">
+				<label>Don't have an account ?</label>
+				<a href="signup.html" style="color:white"><b>Signup</b></a>
+			</div>
+		</div>
+	</div>
+	<script>
+		// Get the modal
+		var modal = document.getElementById('id01');
+
+		// When the user clicks anywhere outside of the modal, close it
+		window.onclick = function(event) {
+    	if (event.target == modal) {modal.style.display = "none";}
+		}
+	</script>
+</body>
+</html>

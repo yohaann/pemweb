@@ -1,0 +1,119 @@
+body {
+	background-color: #414141;
+}
+
+
+
+h1 {
+	color: powderblue;
+	font-family: "Courier New";
+}
+
+h2 {
+	color: powderblue;
+	font-family: "Courier New";
+	font-style: italic;
+	font-weight: normal;
+}
+
+a {
+	background-color: #414141;
+	color: powderblue;
+	font-family: "Courier New";
+}
+
+body {
+	background-color: #414141;
+}
+
+.shape	{
+	height: 400px;
+	width: 600px;
+	border-radius: 0.5%;  <!-- Create circle -->
+	margin-bottom: 30px;
+	margin-right: 20px;
+	background-color: #ffffff;
+}
+
+body, html	{
+	height: 100%;
+}
+
+body	{
+	padding: 10;
+	background-color: #333333;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+div.a {
+	padding-top: 29px;
+	margin: 2px;
+	text-align: center;
+	font-family: fantasy;
+	font-size: 25px;
+	font-weight: normal;
+	letter-spacing: 2px;
+	border-radius: 5px;
+    background-color: #ffffff;
+    padding: 30px;
+}
+
+input[type=text], select {
+    width: 90%;
+    padding: 18px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=password], select {
+    width: 90%;
+    padding: 18px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button[type=submit] {
+    width: 90%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 18px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 15px;
+}
+
+button[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div.forgetpassword{
+	text-decoration: underline;
+	text-align: center;
+	font-size: 13px;
+	padding-top: 9px;
+	font-weight: normal;
+	font-family: serif;
+	letter-spacing: 0px;
+	color: white;
+}
+
+
+
+.signup{
+	padding-top: 10px;
+	width: 100%;
+	color: white;
+	font-size: 14px;
+	text-align: center;
+}
