@@ -117,3 +117,19 @@ div.forgetpassword{
 	font-size: 14px;
 	text-align: center;
 }
+
+#content {
+	background: #fff;
+	padding: 20px 10px;
+}
+
+#content h2 {
+	font-weight: lighter;
+	padding: 0;
+	margin: 0;
+}
+
+#footer{
+	background: #806d59;
+	padding: 20px 10px;
+}
